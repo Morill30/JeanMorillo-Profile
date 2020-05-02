@@ -1,0 +1,282 @@
+body {
+  /* background: url(../img/DarkWorld.jpg) no-repeat center center fixed; */
+  background-size: cover;
+  margin: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  background: rgba(37, 37, 37, 0.97);
+  position: fixed;
+  top: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.navbar a {
+  float: none;
+  position: relative;
+  /* left: 50%; */
+  display: inline-block;
+  color: white;
+  /* text-align: center; */
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 13px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.navbar a:hover {
+  background-color: rgba(37, 37, 37, 0);
+  color: gray;
+}
+.navbar img {
+  /* float: left;  */
+  /* position: absolute; */
+  top: 30%;
+  /* left:32%; */
+  margin-right: 40px;
+  width: 20px;
+  height: 20px;
+}
+
+.container {
+  height: 100%;
+  margin: auto;
+  /* margin-left: 68px;  */
+}
+.container h1 {
+  background-color: white;
+  color: black;
+  margin: 0px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.container h2 {
+  background-color: white;
+  color: black;
+  margin: 0px;
+  text-align: center;
+  padding-bottom: 1px;
+}
+
+.SalesWhite {
+  background-color: whitesmoke;
+  width: 100%;
+  color: gray;
+  display: flex;
+  overflow: auto;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.SalesWhite1 {
+  background-color: whitesmoke;
+  width: 100%;
+  color: gray;
+}
+
+.Sub {
+  /* padding-top: 90px; */
+  text-align: right;
+}
+
+.SubAdd {
+  padding-top: 10px;
+  text-align: right;
+  padding-right: 40px;
+}
+.SalesWhite > div {
+  flex: 4;
+}
+
+.SalesWhite button {
+  height: 30px;
+  width: 130px;
+  color: #fff;
+  font-size: 15px;
+  background: skyblue;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  margin: 15px;
+}
+
+.SalesWhite button:disabled {
+  background-color: gray;
+}
+
+.SalesWhite button:hover:enabled {
+  background-color: aquamarine;
+}
+
+.SalesWhite select:disabled {
+  background-color: gray;
+}
+
+.SalesWhite p {
+  padding-left: 30px;
+  margin: 0px;
+  color: black;
+}
+
+.SalesWhite h1 {
+  padding-left: 10px;
+  /* background-color: #0f1111; */
+  opacity: 0.9;
+  color: black;
+  /* padding-top: 0px; */
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  font-size: 30px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.SalesWhite h2 {
+  padding-left: 10px;
+
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+  padding-top: 10px;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper,
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.SalesWhite img {
+  margin: 9px;
+  border: 2px solid black;
+  border-radius: 90px;
+}
+
+.SalesBlack {
+  background-color: rgba(22, 28, 51, 0.97);
+  width: 100%;
+  color: white;
+  padding: 10px;
+  margin-top: 0px;
+  border: 2px solid black;
+}
+
+.SalesWhite blk {
+  float: left;
+}
+
+.SalesWhite input[type="text"] {
+  color: black;
+  background: whitesmoke;
+  outline: none;
+  text-align: center;
+  box-shadow: whitesmoke;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+}
+
+.SalesWhite input[type="checkbox"] {
+  margin: 10px 10px 0 0;
+  text-align: center;
+  -webkit-appearance: none;
+  font-size: 15px;
+  width: 20px;
+  height: 20px;
+  background: white;
+  border-radius: 19px;
+  border: 2px solid #555;
+}
+
+.SalesWhite input[type="checkbox"]:checked {
+  background: rgb(22, 44, 92);
+}
+.divC {
+  /* text-align: center; */
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+.SalesWhite select {
+  background: #292a2b;
+  color: #fff;
+  padding: 10px;
+  width: 290px;
+  height: 50px;
+  border: black;
+  font-size: 20px;
+  box-shadow: 0 5px 25px rbga(0, 0, 0, 0.5);
+  -webkit-appearance: button;
+  outline: none;
+  border-radius: 20px;
+}
+
+.form-control {
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 2px solid #5f5f5f;
+  width: 90%;
+  height: 400px;
+}
+
+.feedback-div {
+  margin-left: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.feedbackLabel {
+  color: black;
+  font-weight: 700;
+}
+
+.blueBtn {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: dodgerblue;
+  color: #fff;
+  border-color: transparent;
+  border-radius: 5px;
+  border-style: solid;
+  /* text-decoration-color: #fff; */
+}
+
+.commentSection {
+  background-color: chocolate;
+
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: black;
+  font-weight: 700;
+  padding: 20px;
+  margin: 20px;
+}
+
+.commentHeader {
+  width: 90%;
+  background-color: chocolate;
+  color: white;
+  height: 50px;
+  padding: 15px;
+  font-weight: 800;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  #last-sales {
+    text-align: start;
+  }
+
+  .SalesWhite {
+    display: block;
+    text-align: center;
+  }
+  .center-img {
+    text-align: center;
+  }
+}

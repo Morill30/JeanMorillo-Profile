@@ -1,0 +1,113 @@
+.list-container {
+  display: inline-block;
+  margin: 0 auto;
+  margin-right: 20px;
+  width: 500px;
+}
+
+#h2-Equ {
+  width: 400px;
+}
+
+#equipment-content {
+  padding-top: 50px;
+}
+
+.img-container {
+  display: inline-block;
+  background-color: white;
+  border-radius: 30px;
+}
+
+#mgLogo {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+.company-pic {
+  border-radius: 30px;
+}
+
+.p-base {
+  color: rgb(187, 190, 209);
+  text-align: start;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+#waves {
+  margin-top: 150px;
+}
+
+.Exp-box h1 {
+  margin-top: 10px;
+  position: relative;
+  display: block;
+  text-align: start;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+.about-content {
+  display: inline-block;
+  width: 60%;
+}
+.Exp-box {
+  width: 400px;
+  position: relative;
+  display: inline-block;
+}
+
+.exp-content {
+  padding-top: 50px;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+  .list-container {
+    font-size: 25px;
+    width: 300px;
+  }
+
+  #h2-Equ {
+    width: 300px;
+    font-size: 30px;
+  }
+
+  #content h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+  #content p {
+    padding-top: 20px;
+    font-size: 17px;
+  }
+
+  .contentBox {
+    text-align: center;
+  }
+
+  .exp-content {
+    padding-top: 40px;
+    margin-bottom: 0;
+  }
+
+  .about-content {
+    margin-bottom: 0;
+    width: 80%;
+  }
+
+  .contentBox {
+    padding: 0;
+  }
+
+  .p-base {
+    text-align: justify;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #content h1 {
+    font-size: 23px;
+  }
+}
